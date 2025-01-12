@@ -20,14 +20,11 @@ This script detects faces in images and sorts them into separate folders based o
 
 1. Clone this repository or download the script to your local machine.
 
-   ```bash
-   git clone https://github.com/yourusername/facedetection-sort.git
+         ```git clone https://github.com/yourusername/facedetection-sort.git
 
 Install the required Python libraries.
 
-    ```bash
-    pip install face_recognition opencv-python
-
+    ```pip install face_recognition opencv-python
 
 Ensure you have an "images" folder containing the images you want to process. This folder should be in the same directory as the script.
  
@@ -36,15 +33,14 @@ Place your images in the images folder.
 
 Run the script by executing the following command:
 
-    ```bash
-    python face_sorter.py
+    ```python face_sorter.py
 The script will detect faces, recognize individuals, and move the original images into a folder for each person under the sorted_faces directory.
 
 If the script finds multiple faces in an image, it will move the image to the folder of the person detected, based on facial recognition.
 
 Example Folder Structure:
 
-      ```sorted_faces/
+      ```  sorted_faces/
       ├── Person_1/
       │   ├── original_image1.jpg
       ├── Person_2/
